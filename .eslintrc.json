@@ -15,9 +15,12 @@
   },
   "rules": {
     "no-unused-vars": [
-      "error",
+      "warn",
       {
-        "argsIgnorePattern": "^_"
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_",
+        "destructuredArrayIgnorePattern": "^_"
       }
     ]
   },

@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
+    "canvas": "^2.11.2",
     "pdfjs-dist": "^3.5.141",
     "typescript": "^5.0.4"
   },
